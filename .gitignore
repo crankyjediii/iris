@@ -1,0 +1,34 @@
+# Xcode / Swift
+DerivedData/
+build/
+xcuserdata/
+*.xcuserdata
+*.xccheckout
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcarchive/
+*.dSYM/
+.swiftpm/
+.build/
+# Package.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python / Core ML tooling
+__pycache__/
+.venv/
+venv/
+*.pyc
+*.onnx
+*.mlmodelc/
+# *.mlpackage is intentionally tracked so the bundled Core ML model can be committed.
+
+# Local Claude Code settings
+.claude/settings.local.json
